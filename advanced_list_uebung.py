@@ -55,3 +55,36 @@ print(message)
 
 # Aufgabe 3-7 Gästeliste verkleinern
 
+message = "Dear " + guests[0].title() + ", there is only room for two guests!"
+print(message)
+message = "Dear " + guests[1].title() + ", there is only room for two guests!"
+print(message)
+message = "Dear " + guests[2].title() + ", there is only room for two guests!"
+print(message)
+message = "Dear " + guests[3].title() + ", there is only room for two guests!"
+print(message)
+message = "Dear " + guests[4].title() + ", there is only room for two guests!"
+print(message)
+message = "Dear " + guests[5].title() + ", there is only room for two guests!"
+print(message)
+uninvited = guests.pop(1)
+message = "Dear " + uninvited.title() + ", I'm sorry but you can't come for dinner!"
+print(message)
+uninvited = guests.pop(4)
+message = "Dear " + uninvited.title() + ", I'm sorry but you can't come for dinner!"
+print(message)
+uninvited = guests.pop(3)
+message = "Dear " + uninvited.title() + ", I'm sorry but you can't come for dinner!"
+print(message)
+uninvited = guests.pop(2)
+message = "Dear " + uninvited.title() + ", I'm sorry but you can't come for dinner!"
+print(message)
+
+message = "Dear " + guests[0].title() + ", you're still invited!"
+print(message)
+message = "Dear " + guests[1].title() + ", you're still invited!"
+print(message)
+
+del guests[0]
+del guests[0]
+print(guests)
