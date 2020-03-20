@@ -1,0 +1,3 @@
+# Teillisten
+
+## Einen Slice erstellen
